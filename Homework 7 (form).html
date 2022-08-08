@@ -16,12 +16,12 @@
         Information
     </div>
  
-    <fieldset>
+    <fieldset><!--Використовується для рамки навколо форми, йому можна задави css стилі-->
     <form>
         <div class="div1">
         <p class="form">
-            <label for="type" >Intake Type</label><br>
-            <select id="type" required>
+            <label for="type" >Intake Type</label><!--використовується для заголовку input--><br>
+            <select id="type" required><!--тег select використовується для випадаючого списку--> 
                 <option disabled selected>Referral</option>
                 <option>Guest passes</option>
                 <option>Official pass</option>
@@ -46,18 +46,18 @@
         </p>
         <p class="form">
             <label>Additional Information Requested Date  <span>(Optional)</sapn></label>
-            <input type="date">
+            <input type="date"><!--input з типом date використовується для відображення кадендарика-->
         </p>
         <p class="form">
               <label>Remaining Days Before Referral is Purged  <span>(Optional)</sapn></label>
-              <input type="number">
+              <input type="number"><!--input з типом number використовується для вводу лише числ-->
         </p>
         <p class="form">
               <label>Fee Payment Date  <span>(Optional)</sapn></label>
               <input type="date">
         </p>
         <p class="form">
-            <input class="checkbox" type="checkbox">
+            <input class="checkbox" type="checkbox"><!--input з типом date дозволяє користувачу керувати параметром двома станами: ввімкнено, вимкнено-->
             <label>Application Fee Processed</label>
         </p>
         
@@ -185,7 +185,7 @@
                </p>
                <p class="form">
                 <label>Case Number</label>
-                <input class="search" type="search" placeholder="Search Case Number"/>
+                <input class="search" type="search" placeholder="Search Case Number"/><!--input з типом search використовується для пошуку-->
                 </p>
                 <p class="form">
                     <label>Referral Number</label>
@@ -223,7 +223,7 @@
         
     </fieldset>
     <p>
-        <button class="button" type="submit">Next</button>
+        <button class="button" type="submit">Next</button><!--input з типом sybmit використовується, як кнопка-->
     </p>
        
 </body>

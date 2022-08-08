@@ -1,0 +1,95 @@
+body{
+    min-width: 700px;
+    max-width: 1000px;
+    font-family: 'Public Sans', sans-serif;
+    color: #171717;
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+.title{
+    margin: 4rem;
+    font-weight: 700;
+    font-size: 24px;
+}
+.info{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+form{
+    display: flex;
+justify-content:space-between;
+}
+.div1{
+    width: 50%;
+}
+
+.div2{
+    width: 50%;
+}
+.form{
+    margin-left: 4rem;
+    font-weight: 400;
+    font-size: 16px;
+}
+label{
+    font-weight: 500;
+}
+select{
+    width: 91%;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #ADADAD;
+}
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ADADAD;
+}
+.date1{
+    background-color: #EFEFEF;
+}
+.date{
+    background-color: #EFEFEF;
+    margin-bottom: 5rem;
+}
+fieldset{
+    border: none;
+    border-bottom: 1px solid #D1D1D1;
+    width: 90%;
+
+}
+.info1{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.search{
+    color: #0050D8;
+}
+span{
+    font-size: small;
+
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    padding: 0.5rem 2rem;
+    margin-left: 51rem;
+}
+.checkbox{
+    padding: 16rem;
+    margin: -9.5rem;
+    margin-top: 1rem;
+    margin-right: -9rem;
+}
+.search{
+    background-image: url("../img/Icon\ awesome-search.png");
+    background-repeat: no-repeat;
+    background-position: 19rem;
+}

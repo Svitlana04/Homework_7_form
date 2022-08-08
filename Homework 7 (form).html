@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 7 (form)</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        Intake Main Flow
+    </div>
+    <div class="info">
+        Information
+    </div>
+ 
+    <fieldset>
+    <form>
+        <div class="div1">
+        <p class="form">
+            <label for="type" >Intake Type</label><br>
+            <select id="type" required>
+                <option disabled selected>Referral</option>
+                <option>Guest passes</option>
+                <option>Official pass</option>
+            </select> 
+        </p>
+        <p class="form">
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel">
+        </p>
+        <p class="form">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </p>
+        <p class="form">
+            <label>Application Registration  <span>(Optional)</sapn></label>
+            <select>
+                <option>APP0000116</option>
+                <option>APP0000165</option>
+                <option>APP0000790</option>
+                <option>APP0000383</option>
+            </select>
+        </p>
+        <p class="form">
+            <label>Additional Information Requested Date  <span>(Optional)</sapn></label>
+            <input type="date">
+        </p>
+        <p class="form">
+              <label>Remaining Days Before Referral is Purged  <span>(Optional)</sapn></label>
+              <input type="number">
+        </p>
+        <p class="form">
+              <label>Fee Payment Date  <span>(Optional)</sapn></label>
+              <input type="date">
+        </p>
+        <p class="form">
+            <input class="checkbox" type="checkbox">
+            <label>Application Fee Processed</label>
+        </p>
+        
+    </div>
+
+
+
+    <div class="div2">
+<p class="form">
+    <label>Enrollment Initiation Date</label>
+    <input type="date" class="date1">
+</p>
+<p class="form">
+    <label>Application Category</label>
+    <select required>
+        <option>Child Support</option>
+        <option>Penalty collection</option>
+    </select>
+</p>
+<p class="form">
+    <label>Enrollment Submission Date  <span>(Optional)</sapn></label>
+    <input type="date" color="grey" class="date">
+</p>
+<p class="form">
+    <input class="checkbox" type="checkbox" value="purged"/>
+    <label>Purged</label>
+</p>
+<p class="form">
+   <label> Exempt from Paternity</label>
+   <select>
+    <option>No</option>
+    <option>Yes</option>
+   </select>
+</p>
+<p class="form">
+    <label>Enrollment Status  <span>(Optional)</sapn></label>
+    <select>
+        <option disabled selected>Worklisted</option>
+        <option></option>
+    </select>
+</p>
+</fieldset>
+    </form>
+    <div class="info1">Maternity Information</div>
+    <fieldset>
+ <form>
+        <div class="div1">
+        <p class="form">
+            <input class="checkbox" type="checkbox" />
+            <label>Are you requesting child support services for an
+                unborn child?</label>
+        </p>
+    </div>
+    <div class="div2">
+        <p class="form">
+            <label>Other known biological parent?  <span>(Optional)</sapn></label>
+            <select>
+                <option>None</option>
+                <option>All</option>
+            </select>
+        </p>
+    </div>
+    </form>
+</fieldset>
+<div class="info1">Official Use</div>
+<fieldset>
+    <form>
+        <div class="div1">
+<p class="form">
+    
+    <label>Case Category</label>
+ <select>
+    <option>Active IV-A</option>
+ </select>
+</p>
+<p class="form" >
+    <label>Arrears Only  <span>(Optional)</sapn></label>
+    <select >
+        <option>None</option>
+    </select>
+</p>
+<p class="form"> 
+    <label>Assigned County of Ownership  <span>(Optional)</sapn></label>
+    <select>
+        <option>None</option>
+    </select>
+</p>
+<p class="form">
+    <label>Intergovermental Case Status <span>(details)</span></label>
+    <select>
+        <option>None</option>
+    </select>
+</p>
+<p class="form">
+  <label>Special Handling Indicator for Applicant <span>(Optional)</sapn></label>
+  <select>
+    <option>None</option>
+  </select>
+</p>
+<p class="form">
+    <label>Special Handling Indicator for Other Parent  <span>(Optional)</sapn></label>
+    <select>
+        <option>None</option>
+    </select>
+</p>
+        </div>
+        <div class="div2">
+               <p class="form">
+                <label>IV-D Indicator</label>
+                <select required>
+                    <option>Non-IV-D</option>
+                </select>
+               </p>
+               <p class="form">
+                <label>Intergovernmental Case Category  <span>(Optional)</sapn></label>
+                <select>
+                    <option>None</option>
+                </select>
+               </p>
+               <p class="form">
+                <label>Intergovernmental Case Type  <span>(Optional)</sapn></label>
+                <select>
+                    <option>None</option>
+                </select>
+               </p>
+               <p class="form">
+                <label>Case Number</label>
+                <input class="search" type="search" placeholder="Search Case Number"/>
+                </p>
+                <p class="form">
+                    <label>Referral Number</label>
+                    <input class="search" type="search" placeholder="Search Referral Number">
+                </p>
+        </div>
+    </form>
+</fieldset>
+<div class="info1">System Information</div>
+    <fieldset>
+        <form>
+            <div class="div1">
+                   <p class="form">
+                    <label>Enrollment Taken by User</label>
+                    <input class="search" type="search" placeholder="Search Input"/>
+                   </p>
+                   <p class="form">
+                    <label>Worker <span>(Optional)</span></label>
+                    <input class="search" type="search" placeholder="Search Input"/>
+                   </p>
+            </div>
+            <div class="div2">
+                    <p class="form">
+                        <label>Intake Supervisor <span>(Optional)</span></label>
+                        <input class="search" type="search" placeholder="Search"/>
+                    </p>
+                    <p class="form">
+                        <label>Owner <span>(Optional)</span></label>
+                        <input class="search" type="search" placeholder="Rajaneesh Banal"/>
+                    </p>
+                   
+            </div>
+            
+        </form>
+        
+    </fieldset>
+    <p>
+        <button class="button" type="submit">Next</button>
+    </p>
+       
+</body>
+</html>
